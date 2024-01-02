@@ -21,7 +21,7 @@ const config: Config = {
         'body-dark-emphasized': '#FFF8EB',
         'gray': '#1E293B',
         'borders': '#E5E7EB',
-        'background': '#0B1121',
+        'background': '#0A0D14',
         'background-light': '#F5F5F7',
         "background-light-emphasized": "#FFFFFF",
         "purple": "#4F00D6",
