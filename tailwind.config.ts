@@ -28,7 +28,7 @@ const config: Config = {
         "blue": "#1D50DD",
         "blue-two": "#0F5BEE",
         "blue-three": "#0066FF",
-        "orange": "CA8F2E",
+        "orange": "#CA8F2E",
         "orange-two": "#DF9318",
         "orange-three": "#F59500"
       }
