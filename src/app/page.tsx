@@ -3,7 +3,7 @@ import Navigation from './Navigation'
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-8 container mx-auto">
+    <main className="min-h-screen p-8 container mx-auto relative">
       <Navigation />
     </main>
   )
