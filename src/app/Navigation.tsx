@@ -20,7 +20,7 @@ export default function Navigation() {
 
     return (
         <nav className="text-body-dark-emphasized flex items-center justify-between flex-wrap">
-            <section className="flex items-center gap-5">
+            <section className="flex items-center gap-5 z-10">
                 <Image src="/Logomarca.svg" alt="Logomarca" width={100} height={80} className="sm:mt-[2px]" />
                 <ul className="sm:flex gap-2 hidden">
                     <li>Início</li>
@@ -28,11 +28,11 @@ export default function Navigation() {
                     <li>Sobre</li>
                 </ul>
             </section>
-            <button onClick={toggle}>
+            <button onClick={toggle} className="z-10">
                 {open ? <CloseIcon className="sm:hidden" fontSize="medium" /> : <MenuIcon className="sm:hidden" fontSize="medium" />}
             </button>
             <Button className="hidden sm:block" text="Entrar" />
-            <div className={`bg-background sm:hidden w-screen left-0 top-0 transition-all rounded overflow-hidden absolute -z-10 ${open ? "opacity-1 h-screen" : "opacity-0 h-0"}`} >
+            <div className={`bg-slate-950 sm:hidden w-screen left-0 top-0 transition-all rounded overflow-hidden absolute ${open ? "opacity-1 h-screen" : "opacity-0 h-0"}`} >
                 <div className="p-8">
                     <ul className="flex pt-16 flex-col gap-4">
                         <li>Início</li>
