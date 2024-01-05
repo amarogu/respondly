@@ -27,5 +27,6 @@
   .bg-gradient {
     background-image: url('../../public/gradientdesktop.png');
     background-size: 100%;
+    background-position: 40% 40%;
   }
 }
