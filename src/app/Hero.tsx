@@ -7,6 +7,7 @@ import { useState, useEffect } from "react";
 
 export default function Hero() {
 
+    /*
     const [currentImg, setCurrentImg] = useState(Hero1);
 
     useEffect(() => {
@@ -14,7 +15,7 @@ export default function Hero() {
             // Logic to determine when to switch images
             // For example, switch image when the user scrolls past a certain point
             const scrollY = window.scrollY;
-            const breakpoint = 100; // Replace with the scroll position you want to trigger the change
+            const breakpoint = 10; // Replace with the scroll position you want to trigger the change
             console.log(scrollY)
             if (scrollY < breakpoint) {
                 setCurrentImg(Hero1); // Switch to mobile image
@@ -31,6 +32,7 @@ export default function Hero() {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+    */
 
     return(
         <section className="my-20 flex flex-col gap-20 items-center">
@@ -43,7 +45,7 @@ export default function Hero() {
                     Link de exemplo
                 </Link>
             </div>
-            <Image src={currentImg} alt="Laptop" className="w-full" />
+            <Image src={Hero1} alt="Laptop" className="w-full" />
         </section>
     )
 }
