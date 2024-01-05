@@ -5,7 +5,7 @@ interface LinkProps {
 
 export default function Link({ href, children }: LinkProps) {
     return (
-        <a href={href}>
+        <a href={href} className="underline">
             {children}
         </a>
     )

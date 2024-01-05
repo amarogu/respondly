@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "./Link";
 
 export default function Hero() {
+    const screenSize = window.screen.width;
+
     return(
         <section className="my-6 flex flex-col gap-8 items-center">
             <div className="text-center flex flex-col gap-3 items-center">
@@ -13,7 +15,7 @@ export default function Hero() {
                     Link de exemplo
                 </Link>
             </div>
-            <Image src="/hero.png" alt="Laptop" width={200} height={200} />
+            <Image src="/hero.png" alt="Laptop" width={screenSize} height={screenSize} />
         </section>
     )
 }
