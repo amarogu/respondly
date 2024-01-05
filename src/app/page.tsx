@@ -4,7 +4,7 @@ import Hero from './Hero'
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-8 container mx-auto relative">
+    <main className="min-h-screen bg-gradient p-8 container mx-auto relative">
       <Navigation />
       <Hero />
     </main>

@@ -3,7 +3,7 @@ import Link from "./Link";
 
 export default function Hero() {
     return(
-        <section className="bg-gradient my-6 flex flex-col gap-8 items-center">
+        <section className="my-6 flex flex-col gap-8 items-center">
             <div className="text-center flex flex-col gap-3 items-center">
                 <h1 className="text-5xl font-bold text-body-dark-emphasized">Título em <span>destaque</span></h1>
                 <p className="max-w-72">

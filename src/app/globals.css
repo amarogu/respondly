@@ -17,5 +17,15 @@
 }
 
 .bg-gradient {
-  
+  background-image: url('../../public/gradient.png');
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+@media screen and (min-width: 640px) {
+  .bg-gradient {
+    background-image: url('../../public/gradientdesktop.png');
+    background-size: 100%;
+  }
 }
