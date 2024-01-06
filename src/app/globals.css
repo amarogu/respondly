@@ -30,3 +30,11 @@
     background-position: 40% 40%;
   }
 }
+
+.bg-line {
+  background-image: url('../../public/line.svg');
+  background-repeat: no-repeat;
+  background-position: 0 40px;
+  height: 60px;
+  display: inline-block;
+}
