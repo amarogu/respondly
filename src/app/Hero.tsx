@@ -35,7 +35,7 @@ export default function Hero() {
     */
 
     return(
-        <section className="my-20 flex flex-col gap-20 items-center">
+        <section className="flex flex-col gap-20 items-center">
             <div className="text-center flex flex-col gap-6 items-center">
                 <h1 className="text-5xl font-bold text-body-dark-emphasized">Título em <span className="bg-orange px-2">destaque</span></h1>
                 <p className="max-w-72">

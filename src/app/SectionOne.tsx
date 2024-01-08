@@ -5,7 +5,7 @@ import Phone2 from '../../public/phone2.png';
 
 export default function SectionOne() {
     return (
-        <section className="flex flex-col sm:flex-row gap-8 sm:justify-between sm:mt-48">
+        <section className="flex flex-col sm:flex-row gap-8 sm:justify-between">
             <div className="flex flex-col sm:items-start sm:text-left gap-4 items-center text-center">
                 <h2 className="text-4xl font-bold text-body-dark-emphasized">Conteúdo <span className="bg-line">palavra</span></h2>
                 <p className="max-w-72">

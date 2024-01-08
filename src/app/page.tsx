@@ -6,7 +6,7 @@ import SectionTwo from './SectionTwo'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient p-8 container mx-auto relative">
+    <main className="min-h-screen bg-gradient p-8 container flex flex-col gap-28 mx-auto relative">
       <Navigation />
       <Hero />
       <SectionOne />
