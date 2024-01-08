@@ -13,7 +13,7 @@ export default function SectionOne() {
                 </p>
                 <Button text="Clique" />
             </div>
-            <div className="flex items-start gap-4 lg:w-[55%] sm:gap-4 lg:gap-24">
+            <div className="flex bg-gradient-phone items-start gap-4 lg:w-[55%] sm:gap-4 lg:gap-24">
                 <Image src={Phone1} alt="WhatsApp" />
                 <Image src={Phone2} className="mt-8" alt="Instagram" />
             </div>
